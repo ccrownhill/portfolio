@@ -221,15 +221,15 @@ top: 0px;
 }
 
 
-.section-wrapper:nth-child(odd) .section-heading {
+.section-wrapper .section-heading {
   color: #fff;
 }
 
-.section-wrapper:nth-child(odd) .skills-subsection {
+.section-wrapper .skills-subsection {
   color: #fff;
 }
 
-.section-wrapper:nth-child(odd) .paragraph-text {
+.section-wrapper .paragraph-text {
   color: #fff;
 }
 
