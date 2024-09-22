@@ -57,41 +57,56 @@ projects:
   - name: "matrix_gpu - custom gpu+compiler for linear algebra on fpga"
     image: "/portfolio/assets/images/matrix_gpu.png"
     details:
-      - something
-    tags: "systemverilog, c++, neural networks, gpu, fpga"
+      - started as a group project at Imperial College where I did some of the gpu design and
+        a compiler for creating machine code to plot functions
+      - later I came up with my own linear algebra language to utilise
+        gpu for parallel multi-dimensional array operations
+      - added this into the compiler
+      - added garbage collection to the compiler
+    tags: "systemverilog, c++, neural networks, gpu, fpga, compiler"
     github: matrix_gpu
   - name: "auto_derivator - auto differentiation and neural network library"
     image: "/portfolio/assets/images/auto_derivator.png"
     details:
-      - something
+      - automatic gradient computation with reverse gradient accumulation
+      - added PyTorch-like neural network frontend
     tags: "c++, backpropagation, graphs"
     github: auto_derivator
   - name: "nonaginta_comp - c90 to risc-v compiler"
     image: "/portfolio/assets/images/nonaginta_comp.jpg"
     details:
-      - something 1
-      - something 2
+      - created as a pair project at Imperial College
+      - implement almost all c90 features
+      - utilises llvm-ir-like intermediate representation for enabling optimisations
+        in the future
+      - ir represented as a control flow graph
     tags: "compiler, c++, risc-v"
     github: nonaginta_comp
   - name: "riscv_cpu - pipelined risc-v cpu with multilevel-caching in systemverilog"
     image: "/portfolio/assets/images/riscv_cpu.png"
     details:
-      - something 1
-      - something 2
+      - "created as a group project at Imperial College; I did the following:"
+      - 5 stage pipelining with forwarding, branch prediction, hazard detection
+      - multilevel caching with split l1 cache and shared l2 cache + main memory with a snooping protocol for cache coherency
     tags: "systemverilog, cpu, risc-v"
     github: riscv_cpu
-  - name: "serpens_os - operating system for playing snake"
+  - name: "serpens_os - x86 operating system for playing snake"
     image: "/portfolio/assets/images/serpens_os.png"
     details:
-      - something 1
-      - something 2
-    tags: "c, os, bare metal"
+      - built with cross-compiler and tested in QEMU and on laptop
+      - write bootloader in nasm assembly
+      - drivers for keyboard, display using interrupt handling
+    tags: "c, os, bare metal, x86"
     github: serpens_os
   - name: "parvum_parse - pipelined risc-v cpu with multilevel-caching in systemverilog"
     image: "/portfolio/assets/images/parvum_parse.png"
     details:
-      - something 1
-      - something 2
+      - LR(1) shift reduce parser to parse input with yacc/bison-like file specifying grammar and reduction rules
+      - obtained grammar file representation as the "canonical collection of sets"
+        along with a set transition table to represent the whole graph structure
+      - generated parse table from it
+      - had to implement my own hash maps since this was written in c only
+      - uses tokens from lex as input
     tags: "finite automata, parsing, c"
     github: parvum_parse
 
