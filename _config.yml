@@ -20,7 +20,7 @@ about_paragraphs:
     principle for my projects, as they seek to teach me by building as much
     as possible from scratch without relying on big libraries."
 
-skills:
+skills_left:
   - name: c++
     percent: 95
   - name: python
@@ -35,6 +35,8 @@ skills:
     percent: 60
   - name: large language models
     percent: 60
+
+skills_right:
   - name: geometric deep learning
     percent: 80
   - name: computer vision
