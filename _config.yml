@@ -14,8 +14,38 @@ profile_picture: assets/images/pp.jpg
 
 
 about_paragraphs:
-  - "i am an autodidact, interested in everything from psychology to software
+  - "I am an autodidact, interested in everything from psychology to software
     development."
   - "\"what I cannot create, I do not understand\" (Richard Feynman) is the guiding
     principle for my projects, as they seek to teach me by building as much
     as possible from scratch without relying on big libraries."
+
+skills:
+  - name: c++
+    percent: 95
+  - name: python
+    percent: 95
+  - name: functional programming (f#)
+    percent: 75
+  - name: go
+    percent: 90
+  - name: pytorch
+    percent: 95
+  - name: tensorflow:
+    percent: 60
+  - name: large language models
+    percent: 60
+  - name: geometric deep learning
+    percent: 80
+  - name: computer vision
+    percent: 80
+  - name: reinforcement learning
+    percent: 55
+  - name: docker
+    percent: 85
+  - name: linux/unix command line and shell scripting
+    percent: 95
+  - name: web front-end (html/css/javascript)
+    percent: 85
+  - name: web back-end (nodejs and go)
+    percent: 80
