@@ -3,15 +3,24 @@
         <div class="full-width">
             <div class="section-heading" id="featured-projects-text">projects</div>
             
+            {% for project in site.projects %}
             <div class="card">
-                <h2>some project</h2>
-                <img src="/portfolio/assets/images/background.jpg" style="width:100%;">
+                <h2>{{ project.name }}</h2>
+                <img src="{{ project.image }}" style="width:100%;">
                 <h2>details</h2>
                 <ul>
-                    <li>test 1</li>
-                    <li>test 2</li>
+                {% for detail in project.details %}
+                    <li>{{ detail }}</li>
+                {% endfor %}
                 </ul>
+                <p>
+                <b>tags: </b> {{ project.tags }}
+                </p>
+                <p>
+                <a href="https://github.com/ccrownhill/{{ project.github }}">GitHub</a>
+                </p>
             </div>
+            {% endfor %}
         </div>
     </section>
 </div>

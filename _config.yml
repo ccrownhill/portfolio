@@ -51,3 +51,46 @@ skills_right:
     percent: 85
   - name: web back-end (nodejs and go)
     percent: 80
+
+
+projects:
+  - name: "matrix_gpu - custom gpu+compiler for linear algebra on fpga"
+    image: "/portfolio/assets/images/matrix_gpu.png"
+    details:
+      - something
+    tags: "systemverilog, c++, neural networks, gpu, fpga"
+    github: matrix_gpu
+  - name: "auto_derivator - auto differentiation and neural network library"
+    image: "/portfolio/assets/images/auto_derivator.png"
+    details:
+      - something
+    tags: "c++, backpropagation, graphs"
+    github: auto_derivator
+  - name: "nonaginta_comp - c90 to risc-v compiler"
+    image: "/portfolio/assets/images/nonaginta_comp.jpg"
+    details:
+      - something 1
+      - something 2
+    tags: "compiler, c++, risc-v"
+    github: nonaginta_comp
+  - name: "riscv_cpu - pipelined risc-v cpu with multilevel-caching in systemverilog"
+    image: "/portfolio/assets/images/riscv_cpu.png"
+    details:
+      - something 1
+      - something 2
+    tags: "systemverilog, cpu, risc-v"
+    github: riscv_cpu
+  - name: "serpens_os - operating system for playing snake"
+    image: "/portfolio/assets/images/serpens_os.png"
+    details:
+      - something 1
+      - something 2
+    tags: "c, os, bare metal"
+    github: serpens_os
+  - name: "parvum_parse - pipelined risc-v cpu with multilevel-caching in systemverilog"
+    image: "/portfolio/assets/images/parvum_parse.png"
+    details:
+      - something 1
+      - something 2
+    tags: "finite automata, parsing, c"
+    github: parvum_parse
