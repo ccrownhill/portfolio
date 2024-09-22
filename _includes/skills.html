@@ -8,8 +8,8 @@
                 <div class="skills left">
                     <div class="progress-bars">
                     {% for skill in site.skills_left %}
+                    <div class="skillbar-title"><p>{{ skill.name }}</p></div>
                     <div class="skillbar clearfix " data-percent="{{ skill.percent }}%">
-                        <div class="skillbar-title" style="background: #2980b9;"><span>{{ skill.name }}</span></div>
                             <div class="skillbar-bar" style="background: #3498db;"></div>
                         </div> <!-- End Skill Bar -->
                     {% endfor %}
@@ -18,7 +18,7 @@
                 <div class="skills right">
                     <div class="progress-bars">
                     {% for skill in site.skills_right %}
-                    <p>{{ skill.name }}</p>
+                    <div class="skillbar-title"><p>{{ skill.name }}</p></div>
                     <div class="skillbar clearfix " data-percent="{{ skill.percent }}%">
                             <div class="skillbar-bar" style="background: #3498db;"></div>
                         </div> <!-- End Skill Bar -->
