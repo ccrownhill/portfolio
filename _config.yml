@@ -11,3 +11,11 @@ email: "ckronbichler at proton dot me"
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
+
+
+about_paragraphs:
+  - "I am an autodidact, interested in everything from psychology to software
+    development."
+  - "The guiding principle to all these self-teaching projects is
+    \"what I cannot create, I do not understand\" (Richard Feynman) as they seek to build as much
+    as possible from scratch without relying on big libraries."
