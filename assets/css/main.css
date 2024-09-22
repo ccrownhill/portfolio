@@ -509,7 +509,7 @@ a {
   }
 
   #nav {
-    background-attachment: set;
+    background-attachment: unset;
   }
 
   .head-title {
