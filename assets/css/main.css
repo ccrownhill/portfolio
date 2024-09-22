@@ -509,6 +509,7 @@ a {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     width: 80%;
+    background-color: #000;
   }
 
   #nav {
