@@ -566,6 +566,9 @@ a {
 
 @media screen and (max-width: 400px) {
   .head-menu-wrap {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
     grid-column-gap: 10px;
@@ -580,6 +583,9 @@ a {
   }
 
   .head-menu-wrap {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
     bottom: 15px;
   }
 }
