@@ -14,11 +14,11 @@ profile_picture: assets/images/pp.jpg
 
 
 about_paragraphs:
-  - "I am an autodidact, interested in everything from psychology to software
+  - "I am an autodidact, interested in almost everything, from psychology to software
     development."
   - "\"what I cannot create, I do not understand\" (Richard Feynman) is the guiding
     principle for my projects, as they seek to teach me by building as much
-    as possible from scratch without relying on big libraries."
+    as possible from scratch, without relying on big libraries."
 
 skills_left:
   - name: c++
@@ -94,3 +94,22 @@ projects:
       - something 2
     tags: "finite automata, parsing, c"
     github: parvum_parse
+
+open_source_work:
+  - name: clang
+    details:
+      - fix a bug where an error was not given when using a non-defined (but
+        declared) identifier
+      - added error message for this
+      - worked with the c standard to test all edge cases where this should
+        and shouldn't result in an error
+    tags: "compiler, c++"
+    github: "https://github.com/llvm/llvm-project/"
+  - name: issie
+    details:
+      - issie is a digital circuit simulation tool used for teaching
+      - wrote functional F# code using an F#/Elmish/Fable/Electron tool chain
+      - added concurrency to Issie using web workers and explore web worker
+        bandwidth and latency
+    tags: "functional programming (f#), concurrency"
+    github: "https://github.com/tomcl/issie/"

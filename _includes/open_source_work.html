@@ -1,22 +1,25 @@
 <div class="section-wrapper">
-    <section class="section projects" id="open-source-work">
+    <section class="section projects" id="projects">
         <div class="full-width">
             <div class="section-heading" id="featured-projects-text">open source work</div>
-            
-                <div class="project-technologies">
 
-                    <a id="featured" class="semi-transparent-button with-border white-button" onclick="selected('featured')">Featured</a>
-                    <a id="all" class="semi-transparent-button with-border white-button" onclick="selected('all')">All</a>
-                    <a id="webdev" class="semi-transparent-button with-border white-button" onclick="selected('webdev')">WebDev</a>
-                    <a id="native" class="semi-transparent-button with-border white-button" onclick="selected('native')">Native</a>
-                    <a id="security" class="semi-transparent-button with-border white-button" onclick="selected('security')">Security</a>
-                    <a id="diy" class="semi-transparent-button with-border white-button" onclick="selected('diy')">DIY</a>
-
-                </div>
-
-            <div class="projects-wrapper">
-            <!-- filled in by js -->
+            {% for project in site.open_source_work %}
+            <div class="card">
+                <h2>{{ project.name }}</h2>
+                <h2>details</h2>
+                <ul class="paragraph-text" style="color: #000;">
+                {% for detail in project.details %}
+                    <li>{{ detail }}</li>
+                {% endfor %}
+                </ul>
+                <p class="paragraph-text" style="color: #000;">
+                <b>tags: </b> {{ project.tags }}
+                </p>
+                <p class="paragraph-text" style="color: #000;">
+                <a href="{{ project.github }}">GitHub</a>
+                </p>
             </div>
+            {% endfor %}
         </div>
     </section>
 </div>
