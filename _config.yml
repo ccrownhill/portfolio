@@ -28,27 +28,27 @@ skills_left:
   - name: functional programming (f#)
     percent: 75
   - name: go
-    percent: 90
+    percent: 87
   - name: pytorch
     percent: 95
   - name: tensorflow
     percent: 60
   - name: large language models
-    percent: 60
+    percent: 65
 
 skills_right:
   - name: geometric deep learning
-    percent: 80
+    percent: 90
   - name: computer vision
-    percent: 80
+    percent: 90
   - name: reinforcement learning
-    percent: 55
+    percent: 60
   - name: docker
-    percent: 85
+    percent: 90
   - name: linux/unix command line and shell scripting
     percent: 95
   - name: web front-end (html/css/javascript)
-    percent: 85
+    percent: 80
   - name: web back-end (nodejs and go)
     percent: 80
 
