@@ -208,10 +208,6 @@ top: 0px;
   margin: 5px;
 }
 
-.section-wrapper:nth-child(odd) {
-  background: url(../images/background.jpg);
-  background-repeat: repeat;
-}
 
 .section-wrapper:nth-child(odd) .section-heading {
   color: #fff;
@@ -284,10 +280,6 @@ top: 0px;
   min-height: 35px;
   color: #fff;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-
-  background: url(../images/background.jpg);
-  background-repeat: repeat;
-  background-attachment: fixed;
 }
 
 .footer-text a {
@@ -425,10 +417,6 @@ top: 0px;
   font-size: 1.1rem;
 }
 
-#nav {
-  background: url(../images/background.jpg);
-  background-repeat: repeat;
-}
 
 a {
   color: #222;
