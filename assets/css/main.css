@@ -533,7 +533,7 @@ a {
 
   .skills-grid {
     -ms-grid-columns: auto auto;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 45% 45%;
     -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
   }
