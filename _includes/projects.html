@@ -10,9 +10,9 @@
             
             {% for project in site.projects %}
             <div class="card">
-                <h2>{{ project.name }}</h2>
+                <h2 style="margin: 1vh;">{{ project.name }}</h2>
                 <img src="{{ project.image }}" style="width:100%;">
-                <h2>details</h2>
+                <h2 style="margin: 1vh;">details</h2>
                 <ul class="paragraph-text" style="color: #000; text-align: left;">
                 {% for detail in project.details %}
                     <li>{{ detail }}</li>
