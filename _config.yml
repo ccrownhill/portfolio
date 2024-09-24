@@ -98,7 +98,7 @@ projects:
       - drivers for keyboard, display using interrupt handling
     tags: "c, os, bare metal, x86"
     github: serpens_os
-  - name: "parvum_parse - pipelined risc-v cpu with multilevel-caching in systemverilog"
+  - name: "parvum_parse - small yacc-like parser generator"
     image: "/portfolio/assets/images/parvum_parse.png"
     details:
       - LR(1) shift reduce parser to parse input with yacc/bison-like file specifying grammar and reduction rules
