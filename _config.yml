@@ -8,6 +8,7 @@ exclude: [vendor/ruby]
 # Personalization
 github_username: ccrownhill
 email: "ckronbichler at proton dot me"
+linkedin: https://www.linkedin.com/in/constantin-kronbichler-2a49701aa/
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
